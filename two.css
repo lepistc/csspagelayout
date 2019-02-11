@@ -1,0 +1,6 @@
+p{ 
+    margin: 80px 90px 100px 70px;
+}
+p.solid{
+    border-style: 5px solid red;
+}

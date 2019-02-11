@@ -1,0 +1,29 @@
+.box{
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Animations</title>
+        <style>
+        .circle{
+            width: 200px;
+            height: 200px;
+            background: tomato;
+            position: relative;
+            animation-name: anime;
+            animation-duration: 2s;
+        }
+        @keyframes anime{
+            from{background-color: tomato;}
+            to {background-color: aliceblue;}
+        }
+        </style>
+    </head>
+    <body>
+        <div class="container"></div>
+        <div class="circle"></div>
+    </body>
+    </html>
+}

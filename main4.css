@@ -1,0 +1,38 @@
+.box{
+    width: 500px;
+    height: 200px;
+    background: linear-gradient(to top, tomato, yellow);
+    margin-bottom: 10px;
+    position: relative;
+}
+.box1{
+    width: 500px;
+    height: 200px;
+    background:linear-gradient(to right, yellow, tomato);
+    margin-bottom: 10px;
+    position: relative;
+}
+.box2{
+    width: 500px;
+    height: 200px;
+    background:linear-gradient(to left, yellow, tomato);
+    margin-bottom: 10px;
+    position: relative;
+}
+.box3{
+    width: 500px;
+    height: 200px;
+    background: linear-gradient(to bottom, tomato, yellow);
+    margin-bottom: 10px;
+    position: relative;
+    transition-property: background-color;
+    transition-duration: 03s;
+    transition-duration: 10s;
+    transition-delay: 2s;
+    transition-timing-function: ease-in-out;
+}
+.box3:hover{
+    background-color:blue;
+    width: 300px;
+    border-radius: 50%;
+}

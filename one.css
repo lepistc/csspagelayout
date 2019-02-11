@@ -1,0 +1,19 @@
+/* selector */
+/* selector { propername:value;} */
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+/* css variables - root & var () */
+:root{
+    --main-color: pink;
+    --text-color: black;
+}
+body{
+    font-style: italic;
+    font-variant: small-caps;
+    line-height: 115%;
+    font-size: 13px;
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--main-color:pink;)
+}
+p{
+    color:var(--text-color: black;)
+}
